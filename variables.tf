@@ -37,3 +37,9 @@ variable "vm_subnet_cidr" {
   description = "CIDR block for VM subnet."
   default     = "10.0.1.0/24"
 }
+
+variable "db_subnet_cidr" {
+  type        = string
+  description = "CIDR block for VM subnet."
+  default     = "10.0.10.0/24"
+}
